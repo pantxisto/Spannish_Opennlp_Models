@@ -67,3 +67,7 @@ Contributors: Martínez Alonso, Héctor; Zeman, Daniel
 Contributing: here
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
+=======
+# Spannish_Opennlp_Models
+
+Trained Models for OpenNlp

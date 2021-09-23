@@ -1,8 +1,8 @@
 # Spannish Opennlp models generation
 
 ## Instructions for training models with Opennlp
-Training: https://opennlp.apache.org/docs/1.9.3/manual/opennlp.html#tools.cli.lemmatizer.LemmatizerTrainerME
-Testing: https://opennlp.apache.org/docs/1.9.3/manual/opennlp.html#tools.cli.lemmatizer.LemmatizerEvaluator
+  - Training: https://opennlp.apache.org/docs/1.9.3/manual/opennlp.html#tools.cli.lemmatizer.LemmatizerTrainerME
+  - Testing: https://opennlp.apache.org/docs/1.9.3/manual/opennlp.html#tools.cli.lemmatizer.LemmatizerEvaluator
 
 ## Data for Lemmatizer Training
 The Universal Dependencies Treebank (https://universaldependencies.org/) and the CoNLL 2009 datasets distribute training data for many languages.

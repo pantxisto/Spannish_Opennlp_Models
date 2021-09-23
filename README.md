@@ -1,4 +1,4 @@
-# Spannish_Opennlp_Models
+# Spannish Opennlp models generation
 
 ## Instructions for training models with Opennlp
 Training: https://opennlp.apache.org/docs/1.9.3/manual/opennlp.html#tools.cli.lemmatizer.LemmatizerTrainerME

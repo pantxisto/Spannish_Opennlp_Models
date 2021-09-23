@@ -7,9 +7,9 @@ Testing: https://opennlp.apache.org/docs/1.9.3/manual/opennlp.html#tools.cli.lem
 ## Data for Lemmatizer Training
 The Universal Dependencies Treebank (https://universaldependencies.org/) and the CoNLL 2009 datasets distribute training data for many languages.
 Data repositories for training and testing models:
-ANCORA: https://github.com/UniversalDependencies/UD_Spanish-AnCora/tree/master
-GSD: https://github.com/UniversalDependencies/UD_Spanish-GSD/tree/master
-PUD: https://github.com/UniversalDependencies/UD_Spanish-PUD/tree/master
+  - ANCORA: https://github.com/UniversalDependencies/UD_Spanish-AnCora/tree/master
+  - GSD: https://github.com/UniversalDependencies/UD_Spanish-GSD/tree/master
+  - PUD: https://github.com/UniversalDependencies/UD_Spanish-PUD/tree/master
 
 ### Acknowledgements
 

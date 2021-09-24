@@ -10,6 +10,7 @@ Data repositories for training and testing models:
   - ANCORA: https://github.com/UniversalDependencies/UD_Spanish-AnCora/tree/master
   - GSD: https://github.com/UniversalDependencies/UD_Spanish-GSD/tree/master
   - PUD: https://github.com/UniversalDependencies/UD_Spanish-PUD/tree/master
+  - CORPUS WIKIPEDIA: https://corpora.uni-leipzig.de/es?corpusId=spa_wikipedia_2021
 
 ### Acknowledgements
 

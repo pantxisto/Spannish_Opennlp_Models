@@ -17,10 +17,13 @@ Command to evaluate:
 ## Data for Sentence Training and Testing
 Data repositories for training and testing models:
   - CORPUS WIKIPEDIA: https://corpora.uni-leipzig.de/es?corpusId=spa_wikipedia_2021
+
 Command to train:
   - opennlp SentenceDetectorTrainer -model es-sent.bin -lang es -data spa_wikipedia_2021_1M-sentences-train.txt -encoding UTF-8 
+
 Command to evaluate:
   - opennlp SentenceDetectorEvaluator -model en-sent.bin -data spa-wikipedia_2021_10K-sentences-test.txt -encoding UTF-8
+
 ### Acknowledgements
 
  * Taulé, M., M.A. Martí, M. Recasens (2008) 'Ancora: Multilevel Annotated Corpora for Catalan and Spanish',

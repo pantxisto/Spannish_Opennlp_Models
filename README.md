@@ -4,14 +4,23 @@
   - Training: https://opennlp.apache.org/docs/1.9.3/manual/opennlp.html#tools.cli.lemmatizer.LemmatizerTrainerME
   - Testing: https://opennlp.apache.org/docs/1.9.3/manual/opennlp.html#tools.cli.lemmatizer.LemmatizerEvaluator
 
-## Data for Lemmatizer Training
+## Data for Lemmatizer Training and Testing
 The Universal Dependencies Treebank (https://universaldependencies.org/) and the CoNLL 2009 datasets distribute training data for many languages.
 Data repositories for training and testing models:
   - ANCORA: https://github.com/UniversalDependencies/UD_Spanish-AnCora/tree/master
   - GSD: https://github.com/UniversalDependencies/UD_Spanish-GSD/tree/master
   - PUD: https://github.com/UniversalDependencies/UD_Spanish-PUD/tree/master
+Command to train:
+  - opennlp LemmatizerTrainerME.conllu -params PerceptronTrainerParams.txt -lang es -model es-lemmatizer.bin -data es_ancora-ud-train.conllu -encoding UTF-8 
+Command to evaluate:
+  - opennlp LemmatizerEvaluator -model es-lemmatizer.bin -data es_ancora-ud-test.conllu -encoding utf-8
+## Data for Sentence Training and Testing
+Data repositories for training and testing models:
   - CORPUS WIKIPEDIA: https://corpora.uni-leipzig.de/es?corpusId=spa_wikipedia_2021
-
+Command to train:
+  - opennlp SentenceDetectorTrainer -model es-sent.bin -lang es -data spa_wikipedia_2021_1M-sentences-train.txt -encoding UTF-8 
+Command to evaluate:
+  - opennlp SentenceDetectorEvaluator -model en-sent.bin -data spa-wikipedia_2021_10K-sentences-test.txt -encoding UTF-8
 ### Acknowledgements
 
  * Taulé, M., M.A. Martí, M. Recasens (2008) 'Ancora: Multilevel Annotated Corpora for Catalan and Spanish',

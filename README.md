@@ -24,6 +24,14 @@ Command to train:
 Command to evaluate:
   - opennlp SentenceDetectorEvaluator -model en-sent.bin -data spa-wikipedia_2021_10K-sentences-test.txt -encoding UTF-8
 
+## Data for Tokenizer Training and Testing
+Data repositories for training and testing models:
+  - CORPUS WIKIPEDIA: https://corpora.uni-leipzig.de/es?corpusId=spa_wikipedia_202
+
+Command to train:
+  - opennlp TokenizerTrainer -model es-token.bin -lang es -data spa_wikipedia_2021_300K-sentences-train.txt -encoding UTF-8 -params .\PerceptronTrainerParams.txt
+
+ 
 ## Acknowledgements
 
  * Taulé, M., M.A. Martí, M. Recasens (2008) 'Ancora: Multilevel Annotated Corpora for Catalan and Spanish',

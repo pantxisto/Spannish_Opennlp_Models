@@ -24,7 +24,7 @@ Command to train:
 Command to evaluate:
   - opennlp SentenceDetectorEvaluator -model en-sent.bin -data spa-wikipedia_2021_10K-sentences-test.txt -encoding UTF-8
 
-## Data for Tokenizer Training and Testing
+## Data for Tokenizer Training
 Data repositories for training and testing models:
   - CORPUS WIKIPEDIA: https://corpora.uni-leipzig.de/es?corpusId=spa_wikipedia_202
 

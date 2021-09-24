@@ -24,7 +24,7 @@ Command to train:
 Command to evaluate:
   - opennlp SentenceDetectorEvaluator -model en-sent.bin -data spa-wikipedia_2021_10K-sentences-test.txt -encoding UTF-8
 
-### Acknowledgements
+## Acknowledgements
 
  * Taulé, M., M.A. Martí, M. Recasens (2008) 'Ancora: Multilevel Annotated Corpora for Catalan and Spanish',
    Proceedings of 6th International Conference on Language Resources and Evaluation. Marrakesh (Morocco).

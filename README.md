@@ -1,5 +1,8 @@
 # Spannish Opennlp models generation
 
+## Opennlp documentation
+  - 
+
 ## Instructions for training models with Opennlp
   - Training: https://opennlp.apache.org/docs/1.9.3/manual/opennlp.html#tools.cli.lemmatizer.LemmatizerTrainerME
   - Testing: https://opennlp.apache.org/docs/1.9.3/manual/opennlp.html#tools.cli.lemmatizer.LemmatizerEvaluator
@@ -31,7 +34,18 @@ Data repositories for training and testing models:
 Command to train:
   - opennlp TokenizerTrainer -model es-token.bin -lang es -data spa_wikipedia_2021_300K-sentences-train.txt -encoding UTF-8 -params .\PerceptronTrainerParams.txt
 
+## Data for Part Of Speech Training
+Data repositories for training and testing models:
+  - ANCORA: https://github.com/UniversalDependencies/UD_Spanish-AnCora/tree/master
+  - GSD: https://github.com/UniversalDependencies/UD_Spanish-GSD/tree/master
+  - PUD: https://github.com/UniversalDependencies/UD_Spanish-PUD/tree/master
+
+Command to train:
+  - opennlp POSTaggerTrainer.conllu -lang es -model es-pos-maxent.bin -data es_ancora-ud-train.conllu params PerceptronTrainerParams.txt  -encoding UTF-8
  
+Command to evaluate:
+  - opennlp POSTaggerEvaluator.conllu -model es-pos.bin -data es_ancora-ud-test.conllu -encoding UTF-8
+
 ## Acknowledgements
 
  * Taulé, M., M.A. Martí, M. Recasens (2008) 'Ancora: Multilevel Annotated Corpora for Catalan and Spanish',

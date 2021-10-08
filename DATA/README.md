@@ -45,6 +45,8 @@ Command to train:
  
 Command to evaluate:
   - opennlp POSTaggerEvaluator.conllu -model es-pos.bin -data es_ancora-ud-test.conllu -encoding UTF-8
+## Sentence generator
+https://app.inferkit.com/demo
 
 ## Acknowledgements
 
